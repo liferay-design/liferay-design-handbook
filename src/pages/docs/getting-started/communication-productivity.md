@@ -22,7 +22,7 @@ A communication platform by Google and our main communication tool between other
 
 ##### 3. Skype
 
- Another communication tool for video and audio calls. 
+ Another communication tool for video and audio calls. Download this tool [here.](https://www.skype.com/pt-br/)
 
 ##### 4. Loop
 

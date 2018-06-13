@@ -50,32 +50,31 @@ For more information about this tool and how we use here, [read this article.](h
 Download for Mac and open a ticket on JIRA to Operations Liferay LATAM. 
 
 
-	For more information read Skecth.
+	For more information read [Skecth](link).
 
 
 
 ##### 3. Zeplin
 
-	Download for MAc and use: 
+Download for MAc and use: 
 
 Login: design-br@liferay.com
 Password:r3m3mb3r design
 
-For more information `about `this tool see here. 
+For more information about this tool see here. 
 
 
 ##### 4. InVision
 
 Open a ticket on JIRA to Operations Liferay LATAM to request access to the team account.
 
-For more information about this tool and how we use here, read this article.
-
+For more information read [InVision](link)
 
 ##### 5. Milanote
 
 Contact felipe.pires@liferay.com to request access to the team account.
 
-For more information about this tool and how we use here, read this article.
+For more information read [Milanote](link)
 
 
 ##### 6. Glyphs Mini
