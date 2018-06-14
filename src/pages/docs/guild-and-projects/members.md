@@ -9,7 +9,7 @@ weight: 2
 
 <article id="1">
 
-### LATAM (Latim America)
+### LATAM (Latin America)
 
 - [Felipe Pires](https://loop.liferay.com/web/guest/home/-/loop/people/_felipe.pires ) - Manager, Senior UX Designer 
 
@@ -64,7 +64,9 @@ weight: 2
 
 ### EMEA (Europe, Medium East and Africa)
 
-- [Victor Valle](https://loop.liferay.com/web/guest/home/-/loop/people/_victor.valle) - Manager, UX Designer 
+- [Victor Valle](https://loop.liferay.com/web/guest/home/-/loop/people/_victor.valle) - Manager, UX Designer
+
+- [Andrea Censi](https://loop.liferay.com/web/guest/home/-/loop/people/_andrea.censi) - UX Designer
 
 - [Beatriz Martin](https://loop.liferay.com/web/guest/home/-/loop/people/_beatriz.martin) - Senior UX Designer
 
