@@ -66,6 +66,8 @@ weight: 2
 
 - [Victor Valle](https://loop.liferay.com/web/guest/home/-/loop/people/_victor.valle) - Manager, UX Designer
 
+- [Andras Himer](https://loop.liferay.com/web/guest/home/-/loop/people/_andras.himer) - UX Designer
+
 - [Andrea Censi](https://loop.liferay.com/web/guest/home/-/loop/people/_andrea.censi) - UX Designer
 
 - [Beatriz Martin](https://loop.liferay.com/web/guest/home/-/loop/people/_beatriz.martin) - Senior UX Designer
