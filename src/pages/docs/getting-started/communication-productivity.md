@@ -10,7 +10,7 @@ weight: 3
 
 ### Communications Tools
 
-##### 1. Slack
+##### 1. Slaaaackkk
 
 Our main communication tool in Engineering. If you don't have this tool, you can download here. After that use your Liferay email to access, when the invitation arrives in your email. Contact [Bruno Farache](bruno.farache@liferay.com) (Engineering Leader) for the invite.
 
