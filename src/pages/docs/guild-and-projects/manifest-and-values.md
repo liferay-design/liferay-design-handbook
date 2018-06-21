@@ -8,7 +8,7 @@ weight: 1
 
 <article id="1">
 
-### Manifest
+### Manifest123
 
 It’s our duty: improving our current product portfolio and insert the Design culture in all Liferay’s departments, either tacitly or explicitly.
 As a team, we want to become a reference both inside and outside the company.
