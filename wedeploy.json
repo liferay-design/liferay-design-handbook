@@ -1,4 +1,7 @@
 {
- "id": "liferay-design",
- "image": "wedeploy/hosting:2.0.0"
+ "id": "liferaydesign",
+ "image": "wedeploy/hosting:2.0.0",
+ "env": {
+    "WEDEPLOY_WEB_PATH": "./dist"
+  }
 }
