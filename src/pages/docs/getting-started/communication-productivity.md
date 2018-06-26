@@ -34,8 +34,8 @@ Click [here](https://loop.liferay.com/home/-/loop/home/help) to learn more about
 
 Our communication tool for quickly messages.
 
-- Liferay - Official: you can request access to [Leyla Ferreira](eyla.ferreira@liferay.com) (HR Leader)
-- Liferay - Offtopic: you can request access to [Leyla Ferreira](eyla.ferreira@liferay.com) (HR Leader)l
+- Liferay - Official: you can request access to [Leyla Ferreira](leyla.ferreira@liferay.com) (HR Leader)
+- Liferay - Offtopic: you can request access to [Leyla Ferreira](leyla.ferreira@liferay.com) (HR Leader)l
 - Liferay - Design team: you can request access to anyone on the team. 
 
 
@@ -47,7 +47,7 @@ Our communication tool for quickly messages.
 
 ##### 1. Google Calendar
 
-The tool we use to schedule meetings. You can see the availability of other members before you invite to a meeting, and the availability of the rooms, using your liferay email. See how to [adding Recife Office rooms to Goggle Calendar.](https://grow.liferay.com/people/Adding+Recife+office+rooms+to+Google+Calendar)
+The tool we use to schedule meetings. You can see the availability of other members before you invite to a meeting, and the availability of the rooms, using your liferay email. See how to [add Recife Office rooms to Google Calendar.](https://grow.liferay.com/people/Adding+Recife+office+rooms+to+Google+Calendar)
 
 ##### 2. JIRA
 
