@@ -1,0 +1,22 @@
+---
+description: "Getting Started"
+title: "Getting Started"
+url: "/docs/getting-started/introduction.html"
+icon: flash
+weight: 1
+---
+
+{namespace pageGettingStarted}
+
+/**
+ */
+{template .render}
+  {@param page: ?}
+
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="refresh" content="0; URL='{$page.url}'">
+    </head>
+  </html>
+{/template}
