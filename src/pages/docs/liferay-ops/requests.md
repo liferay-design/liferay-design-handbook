@@ -39,5 +39,6 @@ Before you apply for a vacation, you need to align with the manager of your team
 
 Follow [#DepartamentoPessoalLatam](https://loop.liferay.com/web/guest/home/-/loop/topics/_DepartamentoPessoalBrasil) topic page on Loop to stay up-to-date with any news related to the department.. 
 
+bla bla bla lalalalalala
 
 </article>
