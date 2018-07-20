@@ -18,7 +18,6 @@ We know that there is a lot of information to absorb on the first days, first we
 
 The first topic, Getting Started, it's about the things to do during onboarding. The others topics  will cover our processes, the standards we use, the projects we have and a lot of other things. So grab some coffee and some cookies and enjoy! Then we'll do a test to see if you've memorized everything...I'm just kidding!
 
-Test
 
 Ah, one important thing: we want to hear your feedback! Did we miss something? Or is there anything not so clear? Please, let us now!
 
