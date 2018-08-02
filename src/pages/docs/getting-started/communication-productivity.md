@@ -34,8 +34,8 @@ Click [here](https://loop.liferay.com/home/-/loop/home/help) to learn more about
 
 Our communication tool for quickly messages.
 
-- Liferay - Official: you can request access to [Leyla Ferreira](eyla.ferreira@liferay.com) (HR Leader)
-- Liferay - Offtopic: you can request access to [Leyla Ferreira](eyla.ferreira@liferay.com) (HR Leader)l
+- Liferay - Official: you can request access to [Leyla Ferreira](leyla.ferreira@liferay.com) (HR Leader)
+- Liferay - Offtopic: you can request access to [Leyla Ferreira](leyla.ferreira@liferay.com) (HR Leader)
 - Liferay - Design team: you can request access to anyone on the team. 
 
 
