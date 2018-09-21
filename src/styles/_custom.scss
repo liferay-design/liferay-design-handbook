@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700');
+
+$font-family: 'Source Sans Pro', sans-serif !important;
+
+body {
+	font-family: $font-family;
+}
+
+.header.header-custom {
+	background: url(/images/background-design-team.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 100%;
+	
+	.header-title {
+		font-size: 88px;
+		font-family: $font-family;
+	}
+	
+	.header-subtitle {
+		font-size: 30px;
+		opacity: 0.5;
+		font-family: $font-family;
+	}
+	
+	.logo-liferay {
+		width: 102px;
+		position: absolute;
+		top: 34px;
+	}
+}
+
+.custom-shortcuts {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 88px;
+	
+	li {
+		width: 200px;
+		height: 232px;
+		padding: 24px;
+		list-style: none;
+		border-radius: 8px;
+		background-color: transparent;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		transition: all .2s ease-in-out;
+		
+		&:hover {
+			box-shadow: 0 4px 25px 0 rgba(0,0,0,0.08), 0 4px 6px 0 rgba(0,0,0,0.06);
+			transform: translateY(-8px);
+			background-color: #FFFFFF;
+			cursor: pointer;
+		}
+	}
+	
+	.icon {
+		height: 72px;
+	}
+	
+	.title {
+		margin-bottom: 8px;
+		display: block;
+		font-size: 18px;
+	}
+	
+	.description {
+		opacity: 0.5;
+		font-size: 16px;
+	}
+}
+.custom-search {
+	max-width: 805px;
+	margin: 0 auto;
+	position: relative;
+	padding-top: 28px;
+
+	input.form-control {
+		box-shadow: 0 4px 25px 0 rgba(0,0,0,0.08), 0 4px 6px 0 rgba(0,0,0,0.1);	
+		background-color: #FFFFFF;
+		font-family: $font-family;
+		padding: 24px 24px 24px 80px;
+		font-size: 30px;
+		font-weight: normal;
+		line-height: 48px;
+		height: 80px;
+	}
+	
+	.custom-icon-process {
+		position: absolute;
+		left: 24px;
+		top: 0;
+		z-index: 1;
+		bottom: 0;
+		margin: auto;
+		height: 32px;
+	}
+
+	.input-inner-icon-helper {
+		display: none;
+	}
+}
+
+.footer {
+	background-color: #FFFFFF;
+
+	&-description, &-description a {
+		color: #000000;
+	}
+}
