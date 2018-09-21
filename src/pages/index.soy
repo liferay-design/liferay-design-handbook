@@ -1,6 +1,6 @@
 ---
 title: "Home"
-description: "Here you can find our design principles, tools and processes."
+description: "Liferay Design team principles, tools and processes."
 ---
 
 {namespace pageIndex}
@@ -13,10 +13,6 @@ description: "Here you can find our design principles, tools and processes."
 	{call main.render data="all"}
 		{param content kind="html"}
 			{call .header data="all" /}
-			{call .why /}
-			{call .features /}
-			{call .how /} 
-			{call .highlights /}
 			{call Footer.render data="all" /}
 		{/param}
 	{/call}
@@ -27,112 +23,79 @@ description: "Here you can find our design principles, tools and processes."
 {template .header}
 	{@param site: ?}
 
-	<header class="header">
+	<header class="header header-custom">
 		<div class="container">
+			// Logo
+			{call Logo.render /}
+
 			<h1 class="header-title">{$site.title}</h1>
 			<h2 class="header-subtitle">{$site.index.description}</h2>
-			<div class="header-cta">
-				<a href="#" class="btn btn-accent">Main call to action</a>
-				<a href="#" class="btn btn-default">Secondary action</a>
-			</div>
+			
+			// Search
+			{call .searchHome data="all" /}
+
+			// Shortcuts
+			{call .shortcuts data="all" /}
 		</div>
 	</header>
 {/template}
 
 /**
  */
-{template .why}
-	<article class="about">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 col-md-offset-2">
-					<h3 class="about-title">Start with why</h3>
-					<p class="about-description">Through the WHY, a story will arise, which will create trust and make an idea, a service, or a project unique. As Simon Sinek has said, having loyal users is all about attracting the people who share your fundamental beliefs. Remember: People don't buy what you do. They buy why you do it. I'll say it again: People don't buy what you do. They buy why you do it.</p>
-				</div>
+{template .shortcuts}
+	<ul class="custom-shortcuts">
+		<li>
+			<div class="icon">
+				{call Icons.rocket /}
 			</div>
-		</div>
-	</article>
+			<strong class="title">Getting Started</strong>
+			<div class="description">First steps for who is starting today.</div>
+		</li>
+		<li>
+			<div class="icon">
+				{call Icons.team /}
+			</div>
+			<strong class="title">Guild and Projects</strong>
+			<div class="description">Manifest, values, members and projects.</div>
+		</li>
+		<li>
+			<div class="icon">
+				{call Icons.designOps /}
+			</div>
+			<strong class="title">Design Ops</strong>
+			<div class="description">Design system, patterns and processes.</div>
+		</li>
+		<li>
+			<div class="icon">
+				{call Icons.tools /}
+			</div>
+			<strong class="title">Design Tools</strong>
+			<div class="description">Keys tools for designing and best practices.</div>
+		</li>
+		<li>
+			<div class="icon">
+				{call Icons.process /}
+			</div>
+			<strong class="title">General Processes</strong>
+			<div class="description">Most common Liferay processes.</div>
+		</li>
+	</ul>
 {/template}
 
 /**
  */
-{template .features}
-	<div class="features">
-		<div class="container">
-			<div class="row">
-				<section class="feature col-md-4 col-md-offset-2">
-					<div class="feature-graphic">
-						<span class="icon-16-bullhorn"></span>
-					</div>
-					<h3 class="feature-title">Heading</h3>
-					<p class="feature-description">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros praesent commodo.</p>
-				</section>
-				<section class="feature col-md-4">
-					<div class="feature-graphic">
-						<span class="icon-16-lock"></span>
-					</div>
-					<h3 class="feature-title">Heading</h3>
-					<p class="feature-description">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros praesent commodo.</p>
-				</section>
-				<section class="feature col-md-4">
-					<div class="feature-graphic">
-						<span class="icon-16-calendar"></span>
-					</div>
-					<h3 class="feature-title">Heading</h3>
-					<p class="feature-description">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros praesent commodo.</p>
-				</section>
-			</div>
-		</div>
-	</div>
-{/template}
+{template .searchHome}
+	{@param site: ?}
 
-/**
- */
-{template .how}
-	<article class="about">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 col-md-offset-2">
-					<h3 class="about-title">It's easier than you think</h3>
-					<p class="about-description">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros praesent commodo ultricies vehicula ut.</p>
-				</div>
-			</div>
-		</div>
-	</article>
-{/template}
-
-/**
- */
-{template .highlights}
-	<div class="highlights">
-		<div class="container">
-			<section class="highlight row">
-				<div class="col-md-6 col-md-offset-2">
-					<h4 class="highlight-title">First highlight. It'll blow your mind.</h4>
-					<p class="highlight-description">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros praesent commodo ultricies vehicula ut.</p>
-				</div>
-				<div class="col-md-5 col-md-offset-1">
-					<img class="highlight-image" src="http://placehold.it/500x400/e7e8e8/64696d" alt="Placeholder">
-				</div>
-			</section>
-			<section class="highlight row">
-				<div class="col-md-6 col-md-push-9">
-					<h4 class="highlight-title">It's that good. See for yourself.</h4>
-					<p class="highlight-description">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros praesent commodo ultricies vehicula ut.</p>
-				</div>
-				<div class="col-md-5 col-md-offset-2 col-md-pull-6">
-					<img class="highlight-image" src="http://placehold.it/500x400/e7e8e8/64696d" alt="Placeholder">
-				</div>
-			</section>
-			<section class="highlight row">
-				<div class="col-md-6 col-md-offset-2">
-					<h4 class="highlight-title">And lastly, this one. Checkmate.</h4>
-					<p class="highlight-description">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros praesent commodo ultricies vehicula ut.</p>
-				</div>
-				<div class="col-md-5 col-md-offset-1">
-					<img class="highlight-image" src="http://placehold.it/500x400/e7e8e8/64696d" alt="Placeholder">
-				</div>
-			</section>
-		</div>
+	<div class="custom-search">
+		<form action="/docs/search.html" method="GET" enctype="multipart/form-data">
+			{call Icons.search /}
+			{call ElectricSearchAutocomplete.render}
+				{param dataURL: ($site.basePath ?: '') + '/site.json' /}
+				{param maxResults: 3 /}
+				{param path: '/docs/' /}
+				{param placeholder: 'e.g. manifest' /}
+			{/call}
+		</form>
 	</div>
 {/template}
