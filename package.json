@@ -3,7 +3,7 @@
   "name": "design-handbook",
   "version": "0.0.0",
   "scripts": {
-    "start": "electric"
+    "start": "electric run"
   },
   "devDependencies": {
     "electric-cli": "^2.2.0",
