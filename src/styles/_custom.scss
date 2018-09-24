@@ -37,16 +37,21 @@ body {
   padding-top: 88px;
 
   li {
+    list-style: none;
+  }
+
+  a {
     width: 200px;
     height: 232px;
     padding: 24px;
-    list-style: none;
     border-radius: 8px;
     background-color: transparent;
     display: flex;
     flex-direction: column;
     justify-content: center;
     transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    border-bottom: none !important;
 
     &:hover {
       box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.08),
