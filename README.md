@@ -22,15 +22,19 @@ node -v && npm -v
 npm i
 ```
 
+### Notes
+
+If you don't have the Java SDK installed, you can [easily install](https://www.lonecpluspluscoder.com/2017/04/27/installing-java-8-jdk-os-x-using-homebrew/) with [Homebrew Cask](https://github.com/liferay-design/phresh-n-clean#4-homebrew-cask-link).
+
 ## Usage
 
-* Build the site, serve it locally, and watch for any changes:
+- Build the site, serve it locally, and watch for any changes:
 
 ```
 electric run
 ```
 
-* Deploy to production (send build files to `wedeploy` branch):
+- Deploy to production (send build files to `wedeploy` branch):
 
 ```
 electric deploy
