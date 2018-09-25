@@ -105,7 +105,7 @@ For more information, see the wedeploy documentation.
 
 Liferay Screens speeds up and simplifies developing native mobile apps that use Liferay. A Screenlet is a visual component that you insert into your native app to leverage Liferay Portal’s content and services. Screenlets are available for both IOS and Android to log in to your portal, create accounts, submit forms, display content, and more. You can use any number of Screenlets in your app; they’re independent, so you can use them in modular fashion. The users can customize Screenlets to fit their needs by changing or extending their UI and behavior. 
  
-Designer: 
+**Designer:**
 
 - [Cássia Oliveira](https://loop.liferay.com/web/guest/home/-/loop/people/_cassia.oliveira)
 </article>
