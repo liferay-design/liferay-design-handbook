@@ -6,6 +6,26 @@ body {
   font-family: $font-family;
 }
 
+.autocomplete {
+  box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.08), 0 4px 6px 0 rgba(0, 0, 0, 0.1);
+  border: 0;
+
+  &-title {
+    font-family: $font-family;
+    font-size: 24px;
+    font-weight: normal;
+  }
+
+  &-text {
+    font-size: 16px;
+    opacity: 0.5;
+  }
+}
+
+.list .list-text-primary {
+  font-family: $font-family;
+}
+
 .header.header-custom {
   background: url(/images/background-design-team.png);
   background-repeat: no-repeat;
@@ -59,6 +79,10 @@ body {
       transform: translateY(-8px);
       background-color: #ffffff;
       cursor: pointer;
+    }
+
+    &:not([class]):hover {
+      color: #000000;
     }
   }
 
