@@ -35,6 +35,14 @@ body {
   .header-title {
     font-size: 88px;
     font-family: $font-family;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    @media (max-width: 960px){
+      font-size: 56px;
+    }
+
   }
 
   .header-subtitle {
@@ -53,8 +61,10 @@ body {
 
 .custom-shortcuts {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
   padding-top: 88px;
+  padding-left: 0;
 
   li {
     list-style: none;
@@ -139,4 +149,138 @@ body {
   &-description a {
     color: #000000;
   }
+}
+.sidebar-search {
+  .form-control {
+    height: 56px;	
+    width: 302px;	
+    border-radius: 6px;	
+    background-color: #FFFFFF;	
+    box-shadow: 0 4px 25px 0 rgba(0,0,0,0.08), 0 4px 6px 0 rgba(0,0,0,0.1);
+    margin: auto;
+
+    @media (max-width: 960px){
+      width: 100%;
+    }
+  }
+  @media (min-width: 960px) {
+    .input-inner-icon-helper {
+      padding-left: 16px;
+    }
+  }
+}
+
+.docs .sidebar-header {
+  display: flex;
+
+  @media (max-width: 960px){
+    .sidebar-logo {
+      display: none;
+    }
+  }
+
+  @media (min-width: 960px){
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #F7F8F9;
+    padding-left: 24px;
+    padding-top: 32px;
+    .sidebar-title {
+      height: 32px;
+      width: 187px;	
+      color: #000000;	
+      font-family: $font-family;	
+      font-size: 24px;	
+      font-weight: bold;	
+      line-height: 32px;
+    }
+    .sidebar-icon {
+      display: none;
+    }
+  }
+}
+
+.docs .sidebar {
+  @media (min-width: 960px){
+    height: 1084px;
+    width: 350px;
+    background-color: #F7F8F9;
+  }
+}
+
+.docs .sidebar-offset {
+  @media (min-width: 960px){
+    width: calc(100% - 350px);
+    margin-left: 350px;
+  }
+}
+
+.sidebar-link.sidebar-link-selected {
+  span{ 
+    color: #000000;	
+    font-family: $font-family;	
+    font-size: 16px;	
+    font-weight: 600;	
+    line-height: 24px;
+    white-space: nowrap;
+  }
+}
+
+.sidebar-item {
+  a.sidebar-link-selected {
+    background-color: #F7F8F9 !important;
+  }
+  a.sidebar-link:hover {
+    border-radius: 2px;	
+    color: #000000 !important;
+    background-color: #ECF3FE !important;
+  }
+  li.active a.sidebar-link.sidebar-link-selected{
+    background-color: #ECF3FE !important;
+  }
+}
+
+
+.docs header .title{
+  background: #FFFFFF;
+  text-align: left;
+  height: 64px;	
+  width: 908px;	
+  color: rgba(0,0,0,0.8);	
+  font-family: $font-family;	
+  font-size: 56px;	font-weight: bold;	
+  line-height: 64px;
+  display: block;
+}
+
+.docs header {
+  background: #FFFFFF;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family;
+}
+
+.contribute{
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: column nowrap;
+  .contribute-text {
+    margin-left: 0;
+    margin-top: 40px;
+    padding: 0;
+    height: 0;
+    background-color: #FFFFFF !important;
+    a {
+      color: #0A63CE; 
+    }
+  }
+}
+
+.divider {	
+  height: 1px;	
+  width: 100%;	
+  opacity: 0.2;	
+  background-color: #000000;
 }
